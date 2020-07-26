@@ -1,0 +1,67 @@
+h2{
+    color: black;
+}
+
+img { 
+    width: 50%; 
+    height: 50%; 
+    object-fit: contain; 
+}
+
+
+body{
+    background-color: lightgray;
+}
+
+.item{
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    width: 220px;
+    height: 350;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color: white;
+    border-spacing: 10px;
+}
+
+
+.info{
+    text-align: left;
+}
+
+.item img{
+    height: 230px;
+    
+
+}
+
+.code{
+    display: block;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 0;
+
+
+}
+
+.title{
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+
+}
+
+.price{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(red, green, blue);
+}
+
+button{
+    float: right;
+
+}
